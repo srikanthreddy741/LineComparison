@@ -1,4 +1,4 @@
-﻿Console.WriteLine("WellCome To LineComparison");
+﻿
 
 namespace LineComparison
 {
@@ -6,6 +6,7 @@ namespace LineComparison
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("WellCome To LineComparison");
             MeasureLineLength measureLineLength = new MeasureLineLength(0);
 
             measureLineLength.MeasuretheLength();
