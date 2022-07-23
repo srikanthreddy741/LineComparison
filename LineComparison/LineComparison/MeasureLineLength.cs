@@ -11,8 +11,7 @@ namespace LineComparison
         int x1, x2, y1, y2;
         public MeasureLineLength(int num)
         {
-            if (num != 0)
-            {
+           
                 Console.WriteLine("Enter X start coordinate number of line{0} i.e x1 : ", num);
                 x1 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Enter Y start coordinate number of line{0} i.e y1 : ", num);
@@ -21,7 +20,7 @@ namespace LineComparison
                 x2 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Enter Y end coordinate number of line{0} i.e y2 : ", num);
                 y2 = Convert.ToInt32(Console.ReadLine());
-            }
+            
         }
         public void MeasuretheLength()
         {
